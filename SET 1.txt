@@ -1,0 +1,204 @@
+
+/************************************************************
+ SET 1
+************************************************************/
+
+
+/* Q1. Node.js - Create a Web Server and Show JavaScript
+       Code Execution Workflow */
+
+// const http = require('http');
+
+// const server = http.createServer((req, res) => {
+//     res.writeHead(200, {'Content-Type': 'text/html'});
+//     res.end('<h1>Hello from Node.js Server!</h1>');
+// });
+
+// server.listen(3000, () => {
+//     console.log("Server running at http://localhost:3000");
+// });
+
+
+/* Q2. TypeScript - Understand Simple and Special Types */
+
+// let name: string = "Harsha";
+// let age: number = 20;
+// let isStudent: boolean = true;
+
+// let data: any = "Hello";
+// data = 100;
+
+// let value: unknown = "TypeScript";
+// let id: null = null;
+// let result: undefined = undefined;
+
+// let numbers: number[] = [10, 20, 30];
+
+// console.log(name);
+// console.log(age);
+// console.log(isStudent);
+// console.log(data);
+// console.log(value);
+// console.log(id);
+// console.log(result);
+// console.log(numbers);
+
+
+/* Q3. ReactJS - Render HTML to a Web Page */
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+
+// function App() {
+//     return (
+//         <div>
+//             <h1>Welcome to ReactJS</h1>
+//             <p>This is my first React program.</p>
+//         </div>
+//     );
+// }
+
+// ReactDOM.createRoot(
+//     document.getElementById('root')
+// ).render(<App />);
+
+
+/************************************************************
+ SET 2
+************************************************************/
+
+
+/* Q4. ExpressJS - Define Routes and Handle Route
+       Parameters and Query Parameters */
+
+// const express = require('express');
+// const app = express();
+
+// app.get('/', (req, res) => {
+//     res.send("Welcome to ExpressJS");
+// });
+
+// app.get('/user/:id', (req, res) => {
+//     res.send("User ID: " + req.params.id);
+// });
+
+// app.get('/search', (req, res) => {
+//     res.send("Search: " + req.query.name);
+// });
+
+// app.listen(3000, () => {
+//     console.log("Server running on port 3000");
+// });
+
+
+/* Q5. TypeScript - Function Parameter and Return Types */
+
+// function add(a: number, b: number): number {
+//     return a + b;
+// }
+
+// function greet(name: string): string {
+//     return "Hello " + name;
+// }
+
+// function display(): void {
+//     console.log("Welcome to TypeScript");
+// }
+
+// console.log("Sum:", add(10, 20));
+// console.log(greet("Harsha"));
+// display();
+
+
+/* Q6. ReactJS - Render HTML to a Web Page */
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+
+// function App() {
+//     return (
+//         <div>
+//             <h1>My College</h1>
+//             <h2>Welcome Students</h2>
+//             <p>Learning ReactJS is easy.</p>
+//         </div>
+//     );
+// }
+
+// ReactDOM.createRoot(
+//     document.getElementById('root')
+// ).render(<App />);
+
+
+/************************************************************
+ SET 3
+************************************************************/
+
+
+/* Q7. ExpressJS - Show the Working of Middleware */
+
+// const express = require('express');
+// const app = express();
+
+// app.use((req, res, next) => {
+//     console.log("Middleware executed");
+//     next();
+// });
+
+// app.get('/', (req, res) => {
+//     res.send("Welcome to ExpressJS");
+// });
+
+// app.listen(3000, () => {
+//     console.log("Server running on port 3000");
+// });
+
+
+/* Q8. ReactJS - Work with Props and States */
+
+// import React, { useState } from 'react';
+// import ReactDOM from 'react-dom/client';
+
+// function Student(props) {
+//     return <h2>Student: {props.name}</h2>;
+// }
+
+// function App() {
+//     const [count, setCount] = useState(0);
+
+//     return (
+//         <div>
+//             <Student name="Harsha" />
+
+//             <h3>Count: {count}</h3>
+
+//             <button onClick={() => setCount(count + 1)}>
+//                 Increment
+//             </button>
+//         </div>
+//     );
+// }
+
+// ReactDOM.createRoot(
+//     document.getElementById('root')
+// ).render(<App />);
+
+
+/* Q9. Node.js - Transfer Data Over HTTP Using HTTP Module */
+
+// const http = require('http');
+
+// const server = http.createServer((req, res) => {
+//     res.writeHead(200, {
+//         'Content-Type': 'text/plain'
+//     });
+
+//     res.write("Data transferred using HTTP");
+//     res.end();
+// });
+
+// server.listen(3000, () => {
+//     console.log("HTTP Server running on port 3000");
+// });
+
+
